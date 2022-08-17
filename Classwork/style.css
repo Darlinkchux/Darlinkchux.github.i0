@@ -1,0 +1,38 @@
+*
+{
+    padding-top: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.body
+{
+    background-color: white;
+}   
+.section
+{
+    background-color:#EEEEEE ;
+    text-align: center;
+    padding: 10px;
+}
+.section .div1  
+{
+    padding-top: 20px;
+} 
+.section .div2
+{
+    background-color: white;
+}
+.old_list ul
+{
+    text-align: justify;
+    margin-left: 290px;
+    width: 50%;
+}
+@media (max-width: 400px){
+    .body{
+        background-color: white;
+    }
+    img{
+        width: 400px;
+    }
+}
