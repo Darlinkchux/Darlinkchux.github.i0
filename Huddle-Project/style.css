@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.desktop{
+    width: 1600px;
+    height: 650px;
+}
+.logo{
+    width: 190px;
+    position: relative;
+    top: -620px;
+    left: 50px;
+    z-index: 2;
+    
+}
+.illustration-mockups{
+    width: 650px;
+    z-index: 2;
+    position: absolute;
+    margin-top: -550px;
+    margin-left: 880px;
+}
+.illustration-grow-together{
+    width: 350px;
+    float: right;
+    margin-top: -220px;
+    margin-right: 60px;
+}
+.illustration-flowing-conversation{
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.illustration-your-users{
+    width: 350px;
+    float: right;
+    margin-top: -220px;
+    margin-right: 60px;
+}
+.huddle-logo-icon{
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 210px;
+}
+.icon-location{
+    width: 25px;
+    margin-left: 220px;
+    margin-top: 3px;
+}
+.icon-phone{
+    width: 25px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+.icon-email{
+    width: 25px;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+.social-icon{
+    width: 130px;
+    position: relative;
+    top: 5px;
+    left: 1200px;
+}
+#sect1{
+    background-color: rgb(235, 251, 254);
+    width: 1600px;
+    height: 650px;
+    position: absolute;
+    margin-top: -660px;
+    z-index: -2;
+}
+#free{
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 45px;
+    margin-left: 1340px;
+    margin-top: -645px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+}
+#free p{
+    margin-left: 55px;
+    margin-top: 11px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#build ul{
+    margin-top: -500px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    width: 700px;
+}
+#build ul li{
+    font-size: 56px;
+}
+#build ol{
+    margin-top: -330px;
+    margin-left: 50px;
+    font-family: calibri;
+    position: absolute;
+    z-index: 2;
+    width: 800px;
+}
+#build ol li{
+    font-size: 30px;
+}
+#started{
+    background-color: rgb(255, 67, 179);
+    margin-left: 50px;
+    margin-top: -170px;
+    border-radius: 25px;
+    height: 50px;
+    width: 430px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#started p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 54px;
+    position: relative;
+    top: 12px;
+    left: 50px;
+    font-size: 25px;
+}
+#sect2{
+    background-color: white;
+    width: 1300px;
+    height: 350px;
+    margin-left: 150px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 250px;
+    border-radius: 12px;
+}
+#sect2 h2{
+    font-family: Trebuchet MS;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 40px;
+    display: inline-flex;
+}
+#grow ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 700px;
+}
+#grow ul li{
+    font-size: 30px;
+}
+#sect3{
+    background-color: white;
+    width: 1300px;
+    height: 350px;
+    margin-left: 150px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+    border-radius: 12px;
+}
+#sect3 h2{
+    font-family: Trebuchet MS;
+    float: right;
+    margin-top: 80px;
+    margin-right: 360px;
+    font-size: 40px;
+    display: inline-flex;
+}
+#flowing ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    margin-top: -150px;
+    margin-right: 80px;
+    width: 700px;
+}
+#flowing ul li{
+    font-size: 30px;
+}
+#sect4{
+    background-color: white;
+    width: 1300px;
+    height: 350px;
+    margin-left: 150px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+    border-radius: 12px;
+}
+#sect4 h2{
+    font-family: Trebuchet MS;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-size: 40px;
+    display: inline-flex;
+}
+#users ul{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 700px;
+}
+#users ul li{
+    font-size: 30px;
+}
+#sect5{
+    background-color: white;
+    width: 700px;
+    height: 250px;
+    margin-left: 450px;
+    margin-top: 115px;
+    position: absolute;
+    z-index: 2;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+#sect5 h2{
+    font-family: Gill Sans MT;
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 35px;
+}
+.started{
+    background-color: rgb(255, 67, 179);
+    margin-left: 220px;
+    margin-top: 40px;
+    border-radius: 45px;
+    height: 60px;
+    width: 280px;
+    box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.started p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+#sect6{
+    background-color: rgb(0, 41, 48);
+    width: 1600px;
+    height: 430px;
+    position: relative;
+    z-index: -1;
+    margin-top: 300px;
+}
+#one ul{
+    color: white;
+    margin-left: 285px;
+    margin-top: -45px;
+    font-size: 20px;
+    
+}
+#one ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.onee{
+    width: 350px;
+}
+#two p{
+    color: white;
+    margin-left: 285px;
+    margin-top: -30px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#three ul li{
+    color: white;
+    margin-top: -26px;
+    margin-left: 280px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#four ul{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 800px;
+    margin-right: 630px ;
+    margin-top: -190px;
+}
+#four ul li{
+    padding-top: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#four ol{
+    top: 80px;
+    position: relative;
+    left: 1000px;
+    color: rgb(255, 255, 255);
+    margin-top: -190px;
+    margin-right: 430px ;
+}
+#four ol li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 17px;
+}
+#five p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   position: relative;
+    left: 1200px;
+    top: 83px;
+}
+
+
+
+
+/* small phone only */
+@media(max-width:375px){
+#sect1{
+    background-image: url(bg-hero-mobile.svg)
+}
+.logo{
+    width: 100px;
+    left: 15px;
+    position: relative;
+}
+#build ul li{
+    position: absolute;
+    font-size: 23px;
+    width: 330px;
+    text-align: center;
+    left: -38px;
+    top: -50px;
+}
+#build ol li{
+    position: absolute;
+    font-size: 20px;
+    width: 330px;
+    text-align: center;
+    top: -150px;
+    left: -38px;
+}
+#started{
+    position: relative;
+    top: -180px;
+    right: -15px;
+    width: 220px;
+    height: 37px;
+}
+#started p{
+    font-size: 15px;
+    left: -10px;
+}
+.illustration-mockups{
+    position: relative;
+    left: -850px;
+    top: -60px;
+    width: 300px;
+}
+#free{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: -1100px;    
+}
+#free p{
+    font-size: 12px;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+#sect2{
+    width: 320px;
+    position: relative;
+    left: -133px;
+    top: -70px;
+}
+.illustration-grow-together{
+    width: 200px;
+    position: relative;
+    top: 17px;
+    left: -5px;
+}
+#sect2 h2{
+    font-size: 20px;
+    position: relative;
+    top: 110px;
+    left: 10px;
+}
+#grow ul li{
+    width: 240px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 100px;
+    left: -40px;
+}
+#sect3{
+    width: 320px;
+    position: relative;
+    left: -133px;
+    top: -70px;
+}
+.illustration-flowing-conversation{
+    width: 200px;
+    position: relative;
+    top: -20px;
+    left: -30px;
+}
+#sect3 h2{
+    font-size: 20px;
+    position: relative;
+    left: 390px;
+    top: -70px;
+    width: 300px;
+}
+#flowing ul li{
+   position: relative;
+   top: 100px;
+   text-align: center;
+   font-size: 15px;
+   left: 490px;
+   width: 250px;
+}
+#sect4{
+    width: 320px;
+    position: relative;
+    top: -50px;
+    left: -130px;
+}
+.illustration-your-users{
+    width: 200px;
+    position: relative;
+    top: 13px;
+    left: 5px;
+}
+#sect4 h2{
+    position: relative;
+    font-size: 25px;
+    top: 100px;
+    left: 10px;
+}
+#users ul li{
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    top: 100px;
+    left: -37px;
+    width: 230px;
+}
+#sect5{
+    width: 280px;
+    height: 200px;
+    position: relative;
+    right: 405px;
+    top: -40px;
+}
+#sect5 h2{
+    position: relative;
+    left: -25px;
+    top: 40px;
+    font-size: 20px;
+    width: 170px;
+    text-align: center;
+}
+.started{
+    position: relative;
+    left: -180px;
+    width: 200px;
+    height: 40px;
+    top: 30px;
+}
+.started p{
+    font-size: 15px;
+    position: relative;
+    top: -8px;
+    right: 13px;
+}
+#sect6{
+    position: relative;
+    top: -410px;
+    width: 380px;
+    height: 820px;
+}
+.huddle-logo-icon{
+   position: relative;
+   width: 190px;
+   right: 200px;
+   top: 22px;
+}
+.icon-location{
+    position: relative;
+    right: 200px;
+    width: 15px;
+    top: 30px;
+}
+.icon-phone{
+    position: relative;
+    position: relative;
+    right: 200px;
+    width: 18px;
+    top: 50px;
+}
+.icon-email{
+    position: relative;
+    position: relative;
+    right: 200px;
+    width: 18px;
+    top: 46px;
+}
+.social-icon{
+    position: relative;
+    top: 500px;
+    left: 130px;
+}
+.onee{
+    position: relative;
+    right: 225px;
+    font-size: 18px;
+    width: 290px;
+    top: 50px;
+}
+#two p{
+    position: relative;
+    right: 225px;
+    top: 60px;
+    font-size: 18px;
+    width: 200px;
+}
+#three ul li{
+    position: relative;
+    right: 225px;
+    top: 49px;
+    font-size: 18px;
+}
+#four ul li{
+  position: relative;
+  right: 750px;
+  top: 260px;
+  font-size: 20px;
+  width: 300px;
+}
+#four ol li{
+position: relative;
+right: 950px;
+top: 380px;
+width: 300px;
+font-size: 20px;
+}
+#five p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 520px;
+    width: 320px;
+    left: 80px;
+    font-size: 12px;
+}
+}
